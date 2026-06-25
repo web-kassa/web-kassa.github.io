@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trade Control POS</title>
+    
     <meta name="google-site-verification" content="tVEMyhwnt22QkX5IOJYMit7h7tQXTuvqhE-GnzDYkq4" />
+    
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: #0a0a0a;
             color: #ffffff;
             display: flex;
@@ -20,9 +22,12 @@
         }
         .container {
             max-width: 600px;
-            padding: 20px;
+            padding: 40px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: #111;
         }
-        h1 { color: #f1c40f; margin-bottom: 10px; }
+        h1 { color: #f1c40f; margin-top: 0; }
         p { color: #cccccc; line-height: 1.6; }
         .btn {
             display: inline-block;
@@ -37,24 +42,19 @@
         }
         .btn:hover { background-color: #357ae8; }
         .links { margin-top: 40px; }
-        .links a {
-            color: #888;
-            text-decoration: none;
-            margin: 0 10px;
-            font-size: 14px;
-        }
+        .links a { color: #888; text-decoration: none; font-size: 14px; }
         .links a:hover { color: #ffffff; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Trade Control POS</h1>
-        <p>Система внутреннего учета товаров и автоматизации продаж. <br> Предназначена для управления инвентарем и обработки транзакций.</p>
+        <p>Система автоматизации учета товаров и продаж. <br> Инструмент для управления складом и кассовыми операциями через Google Таблицы.</p>
         
         <a href="/app/" class="btn">Открыть приложение</a>
         
         <div class="links">
-            <a href="privacy.html">Политика конфиденциальности</a>
+            <a href="/app/privacy.html">Политика конфиденциальности</a>
         </div>
     </div>
 </body>
