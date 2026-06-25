@@ -2,13 +2,60 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Trade Control</title>
-    <!-- Ваш мета-тег для Google -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Control POS</title>
     <meta name="google-site-verification" content="tVEMyhwnt22QkX5IOJYMit7h7tQXTuvqhE-GnzDYkq4" />
-    <!-- Переадресация в кассу -->
-    <meta http-equiv="refresh" content="0; url=/app/" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+        h1 { color: #f1c40f; margin-bottom: 10px; }
+        p { color: #cccccc; line-height: 1.6; }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #4285F4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover { background-color: #357ae8; }
+        .links { margin-top: 40px; }
+        .links a {
+            color: #888;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        .links a:hover { color: #ffffff; }
+    </style>
 </head>
 <body>
-    <p>Запуск...</p>
+    <div class="container">
+        <h1>Trade Control POS</h1>
+        <p>Система внутреннего учета товаров и автоматизации продаж. <br> Предназначена для управления инвентарем и обработки транзакций.</p>
+        
+        <a href="/app/" class="btn">Открыть приложение</a>
+        
+        <div class="links">
+            <a href="privacy.html">Политика конфиденциальности</a>
+        </div>
+    </div>
 </body>
 </html>
